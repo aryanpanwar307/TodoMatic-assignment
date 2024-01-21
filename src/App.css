@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #c7c7c7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: #363636;
+ }
+
+h3 {
+  color: #363636;
+ }
+input[type="text"] {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #7e7e7e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+button:hover {
+  background-color: #adadad;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+span {
+  margin-left: 8px;
+  flex-grow: 1;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.remaining-tasks {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+div {
+  margin-bottom: 12px;
+}
+
+.edit-container {
+  display: flex;
+  align-items: center;
+}
+
+.edit-container input[type="text"] {
+  margin-right: 8px;
+}
+
+.edit-container button {
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.edit-container button:hover {
+  background-color: #0b7dda;
+}
+
+
